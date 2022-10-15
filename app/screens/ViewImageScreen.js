@@ -38,7 +38,7 @@ function ViewImageScreen({ navigation, route }) {
       />
 
       <View style={styles.buttonContainer}>
-        <TouchableOpacity onPress={() => navigation.pop()}>
+        <TouchableOpacity onPress={() => navigation.navigate("ImagePicker")}>
           <Feather name="upload" size={30} color="white" />
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.popToTop()}>
@@ -46,7 +46,6 @@ function ViewImageScreen({ navigation, route }) {
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.pop()}>
           <AntDesign name="back" size={30} color="white" />
-          {/* <Text style={styles.textButton}>Back</Text> */}
         </TouchableOpacity>
       </View>
     </View>
