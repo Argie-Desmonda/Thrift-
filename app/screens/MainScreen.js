@@ -14,6 +14,8 @@ import Feather from "@expo/vector-icons/Feather";
 
 import colors from "../config/colors";
 import ViewImageScreen from "./ViewImageScreen";
+import ImagePickerScreen from "./ImagePickerScreen";
+import CameraScreen from "./CameraScreen";
 
 function MainScreen({ navigation }) {
   const [Product, setProduct] = useState([
@@ -82,7 +84,7 @@ function MainScreen({ navigation }) {
         )}
       />
       <View style={styles.buttonContainer}>
-        <TouchableOpacity onPress={() => navigation.pop()}>
+        <TouchableOpacity onPress={() => navigation.navigate("ImagePicker")}>
           <Feather name="upload" size={30} color="white" />
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.popToTop()}>
