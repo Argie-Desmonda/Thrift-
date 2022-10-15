@@ -8,6 +8,8 @@ import ViewImageScreen from "./app/screens/ViewImageScreen";
 import WelcomeScreen from "./app/screens/WelcomeScreen";
 import MainScreen from "./app/screens/MainScreen";
 import LoginScreen from "./app/screens/LoginScreen";
+import ImagePickerScreen from "./app/screens/ImagePickerScreen";
+import CameraScreen from "./app/screens/CameraScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -33,6 +35,16 @@ export default function App() {
         <Stack.Screen
           name="Login"
           component={LoginScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="ImagePicker"
+          component={ImagePickerScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Camera"
+          component={CameraScreen}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
