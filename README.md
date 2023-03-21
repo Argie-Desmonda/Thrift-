@@ -1,7 +1,7 @@
 # Thrift 🛍
 THRIFT is an online marketplace mobile app build to help charity organization and people to find product under the market price. 
 
-THRIFT adalah aplikasi thrift shop online yaitu aplikasi yang dapat digunakan untuk menjual barang bekas yang sudah tidak dipakai dengan sistem yang sama seperti thrift shop pada umumnya, semua pendapatan yang didapatkan dari hasil penjualan tidak akan diteruskan ke penjual. melainkan akan di donasikan ke organisasi-organisasi galang dana tertentu yang dapat ditentukan oleh komunitas thift. 
+THRIFT adalah aplikasi thrift shop online yaitu aplikasi yang dapat digunakan untuk menjual barang bekas yang sudah tidak dipakai dengan sistem yang sama seperti thrift shop pada umumnya, semua pendapatan yang didapatkan dari hasil penjualan tidak akan diteruskan ke penjual. melainkan akan di donasikan ke organisasi-organisasi galang dana tertentu yang dapat ditentukan oleh komunitas thrift. 
 
 Daftar package expo yang digunakan dalam aplikasi ini adalah
 "expo-camera": "~12.3.0",
